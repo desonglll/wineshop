@@ -1,0 +1,21 @@
+1、首先安装jdk idea 和mysql，tomcat 环境
+2、在mysql中创建数据库 ，名称可使用提供也可自定义 导入wineshop.sql文件（结构和数据都导入）
+3、idea 导入源码文件，等待导入完毕，更改数据库配置文件为自己内容
+4、images文件夹拷贝到D盘下
+5，idea中配置虚拟镜像
+6、配置tomcat，启动即可
+     前端访问地址：http://localhost:8080/wineshop/index.jsp
+     后端访问地址：http://localhost:8080/wineshop/admin/login.jsp
+   端口、项目名称改成自己内容（如端口没变，名称没变直接启动即可）
+
+   后端当前数据库提供的账号：
+   账号：kappy
+   密码:1
+
+
+
+
+注意点：如果数据库是8版本
+      更改驱动包和数据库配置文件，相关资料参考8版本更改内容
+      1、依赖包放置到lib下
+      2、置换c3p0配置文件即可
